@@ -1,5 +1,6 @@
 body {
-    background-color:greenyellow;
+    background-color: greenyellow;
+}
     ol {
         font-family: Times new 'Times New Roman', Times, serif, sans-serif;
         font-size: 18px;
@@ -10,4 +11,17 @@ body {
     p{
         color: orange;
     }
+    h2.highlight {
+    color: blue;
+}
+    .card {
+    background-color: green;
+    border: 30px solid purple;
+    padding: 25px;
+    margin: 15px;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
